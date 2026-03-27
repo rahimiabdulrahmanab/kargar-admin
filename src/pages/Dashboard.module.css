@@ -1,0 +1,34 @@
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.quickActions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.actionBtn {
+  text-decoration: none;
+}
+
+.recentWrap {
+  margin-top: 8px;
+}
+
+.recentHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.recentTitle {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+}

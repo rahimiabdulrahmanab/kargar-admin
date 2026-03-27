@@ -1,0 +1,11 @@
+.nameEn {
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+.nameNative {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}

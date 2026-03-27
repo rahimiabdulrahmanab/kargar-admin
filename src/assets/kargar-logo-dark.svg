@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120">
+  <rect width="320" height="120" fill="#1A2233" rx="12"/>
+  <!-- Hex mark -->
+  <polygon points="48,14 86,36 86,80 48,102 10,80 10,36" fill="#F5A623"/>
+  <rect x="30" y="36" width="6" height="44" rx="2" fill="#1A2233"/>
+  <path d="M36 58 L60 36" stroke="#1A2233" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M36 58 L62 80" stroke="#1A2233" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Wordmark -->
+  <text x="106" y="56" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="600" letter-spacing="4" fill="#FFFFFF">KARGAR</text>
+  <!-- Dari -->
+  <text x="106" y="78" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" letter-spacing="2" fill="#F5A623">کارگر · کارګر</text>
+  <!-- Tagline -->
+  <text x="106" y="98" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" letter-spacing="2.5" fill="#607087">FIND TRUSTED SERVICES</text>
+</svg>
