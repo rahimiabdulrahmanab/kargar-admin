@@ -38,7 +38,7 @@ export default function Login() {
         {/* Logo */}
         <div className={styles.logo}>
         <img 
-          src="/src/assets/kargar-logo-dark.svg" 
+          src="/kargar-logo-dark.svg" 
           width="220" 
           height="80" 
           style={{ marginBottom: 8 }} 

@@ -35,7 +35,7 @@ export default function Dashboard() {
               <div className="page-header">
           <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
             <img 
-              src="/src/assets/kargar-icon.svg" 
+              src="/kargar-icon.svg" 
               width="44" 
               height="44" 
             />
