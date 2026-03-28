@@ -164,5 +164,10 @@ export function useHelpers() {
     );
   }, []);
 
-  return { helpers, loading, error, refetch: fetchHelpers, updateLocalStatus };
+  // Remove one helper locally after deletion
+  const removeLocal = useCallback((profileId) => {
+    setHelpers((prev) => prev.filter((h) => h.profileId !== profileId));
+  }, []);
+
+  return { helpers, loading, error, refetch: fetchHelpers, updateLocalStatus, removeLocal };
 }
