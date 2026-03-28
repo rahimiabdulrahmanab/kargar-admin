@@ -24,7 +24,7 @@ export default function Sidebar() {
     <aside className={styles.sidebar}>
       {/* Logo */}
       <div className={styles.logo}>
-        <img src="/src/assets/kargar-icon.svg" width="36" height="36" style={{ borderRadius: 8 }} />
+        <img src="/kargar-icon.svg" width="36" height="36" style={{ borderRadius: 8 }} />
         <div>
           <div className={styles.logoName}>Kargar</div>
           <div className={styles.logoSub}>Admin Panel</div>
